@@ -1,4 +1,4 @@
-package game.except;
+package src.exception;
 
 public class MissingInputException extends Exception{
     private static final long serialVersionUID = 1L;

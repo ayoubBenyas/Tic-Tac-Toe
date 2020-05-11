@@ -4,12 +4,12 @@ Tic Tac Toe game in Java Swing with simple user interface.
 
 ## Compilation
 
-Use java command to compile java code source. ⚙️
+Use `javac` command to compile java code source. ⚙️
 
 ```bash
 javac ./Main.java
-javac ./game/*.java
-javac ./game/except/*.java
+javac ./src/main/*.java
+javac ./src/exception/*.java
 ```
 
 ## Usage
@@ -40,15 +40,30 @@ jar cvfm xoxo.jar manifest.txt Main.class game/*.class game/except/*.class
 make sure to update the  `manifest.txt` file .
 
 
-## How to play
+## How to play ?
 
+### Graphique mode 
 Use the numpad to give your the choice. You can also click on a position with the mouse.
 
 > !! colored bars give information about the role **blue** vs **red**
 
 You may have noticed that the title bar is missing, so press `ESC` to close the game ❌.
 
+![Screen graphique mode](/img/screenG.png)
+
+### Console mode 
+This mode is a bit easy, enter the X and Y position of your cell
+
+***Exemple:***
+
+```
+ :>    3 2
+```
+
+![Screen screen mode](/img/screenC.png)
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Feel free to use this project.
 
 🕹️ Play and Have Fun 😉
+

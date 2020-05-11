@@ -1,6 +1,6 @@
-package game;
+package src.main;
 
-import game.except.*;
+import src.exception.*;
 
 /* Graphic Class use */
 import java.awt.BasicStroke;

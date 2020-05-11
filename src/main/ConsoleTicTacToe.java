@@ -1,7 +1,7 @@
-package game;
+package src.main;
 
 import java.util.Scanner;
-import game.except.*;
+import src.exception.*;
 
 public class ConsoleTicTacToe extends TicTacToe{
     

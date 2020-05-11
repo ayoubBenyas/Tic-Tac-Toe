@@ -1,4 +1,4 @@
-package game;
+package src.main;
 
 public class Player {
     int id;

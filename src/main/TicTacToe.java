@@ -1,6 +1,6 @@
-package game;
+package src.main;
 
-import game.except.CellAlreadyTakenException;
+import src.exception.CellAlreadyTakenException;
 
 public abstract class TicTacToe {
     
@@ -40,7 +40,7 @@ public abstract class TicTacToe {
         return this.curPlayer.getSymbol();
     }
     public char getAdverserPlayerSymbol() {
-        return (this.curPlayer.getSymbol() == _PLMAYER1)?'O':'X' ;
+        return (this.curPlayer.getSymbol() == 'X')?'O':'X' ;
     }
 
     public int Check(){
